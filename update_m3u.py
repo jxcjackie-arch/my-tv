@@ -4,8 +4,9 @@ import re
 
 # 你想要抓取的上游直播源链接（这里放了两个著名的全球和中国源，你可以自己换掉）
 SOURCE_URLS = [
-    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u"
+    # 替换成高质量的纯净源，存活率和播放速度会大大提高
+    "https://live.fanmingming.com/tv/m3u/ipv4.m3u",
+    "https://raw.githubusercontent.com/Suppressed/tv/master/tv.txt"
 ]
 OUTPUT_FILE = "tv_live.m3u"
 TIMEOUT = 5  # 超过5秒不响应的链接就淘汰
