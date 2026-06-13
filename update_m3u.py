@@ -2,19 +2,23 @@ import asyncio
 import aiohttp
 import datetime
 
-# 换上带有完美分类、且对海外网络更友好的高质量源
+# 你的终极私人直播源百宝箱（中文精装 + 全球新闻 + 美国本土频道）
 SOURCE_URLS = [
-    "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
+    # 1. 包含央视、卫视的高质量纯净源
+    "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+    # 2. 专门收集全球主流新闻媒体的开源库（含 Bloomberg, CBS, NBC 等）
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/news.m3u",
+    # 3. 专门收集美国本土频道的开源库（含 Fox 系列, ABC 系列等）
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u"
 ]
 OUTPUT_FILE = "tv_live.m3u"
-TIMEOUT = 4  # 稍微延长一点超时时间，适应跨国网络延迟
+TIMEOUT = 4
 
 async def check_url(session, channel_info, url):
     if "127.0.0.1" in url or "localhost" in url:
         return None
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        # 测试有效性
         async with session.head(url, headers=headers, timeout=TIMEOUT, allow_redirects=True) as response:
             if response.status in [200, 206, 301, 302]:
                 return (channel_info, url)
@@ -56,7 +60,7 @@ async def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
-        # 写入运行状态（这不仅是探针，还能让你的列表看起来很专业）
+        # 写入运行状态探针
         now_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f'#EXTINF:-1 group-title="💡 系统信息", 🕒最新更新时间: {now_time}\n')
         f.write('http://127.0.0.1/dummy.m3u8\n')
