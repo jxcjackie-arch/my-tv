@@ -2,18 +2,19 @@ import asyncio
 import aiohttp
 import re
 
-# 你想要抓取的上游直播源链接（这里放了两个著名的全球和中国源，你可以自己换掉）
+# 替换为自带完美分类的高质量电视直播源（范明明IPv4源）
 SOURCE_URLS = [
-    # 替换成高质量的纯净源，存活率和播放速度会大大提高
-    "https://live.fanmingming.com/tv/m3u/ipv4.m3u",
-    "https://raw.githubusercontent.com/Suppressed/tv/master/tv.txt"
+    "https://live.fanmingming.com/tv/m3u/ipv4.m3u"
 ]
 OUTPUT_FILE = "tv_live.m3u"
-TIMEOUT = 5  # 超过5秒不响应的链接就淘汰
+TIMEOUT = 4  # 超过4秒不响应就淘汰，保证换台速度
 
 async def check_url(session, channel_info, url):
     try:
-        async with session.head(url, timeout=TIMEOUT, allow_redirects=True) as response:
+        # 伪装成普通浏览器，防止被电视台的服务器拦截导致黑屏
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        # 改用 get 请求测活，对视频流更友好
+        async with session.get(url, headers=headers, timeout=TIMEOUT) as response:
             if response.status == 200:
                 return f"{channel_info}\n{url}\n"
     except Exception:
@@ -27,8 +28,12 @@ async def process_m3u(session, source_url):
             if response.status != 200:
                 return []
             text = await response.text()
+            
+            # 精准抓取频道信息（包含 group-title 分类标签）和播放链接
             pattern = re.compile(r'(#EXTINF[^\n]+)\n(http[^\n]+)')
             matches = pattern.findall(text)
+            
+            # 并发测活
             tasks = [check_url(session, info, url) for info, url in matches]
             results = await asyncio.gather(*tasks)
             valid_channels = [res for res in results if res is not None]
