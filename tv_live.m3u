@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="💡 系统信息", 🕒最新更新时间: 2026-06-15 23:46:44
+#EXTINF:-1 group-title="💡 系统信息", 🕒最新更新时间: 2026-06-16 23:25:02
 http://127.0.0.1/dummy.m3u8
-#EXTINF:-1 group-title="💡 系统信息", 📡当前有效频道: 455个
+#EXTINF:-1 group-title="💡 系统信息", 📡当前有效频道: 459个
 http://127.0.0.1/dummy.m3u8
 #EXTINF:-1 tvg-id="6WiseTv.us@SD",6 Wise Tv (720p)
 https://live.enhdtv.com:8081/8150/index.m3u8
@@ -91,8 +91,6 @@ https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmaus.smil/playlist.m3u8
 https://597f64b67707a.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlmagdTVNorthAmerica.us@SD",Almagd TV North America (1080p)
 https://5aafcc5de91f1.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AmericanHorrors.us@SD",American Horrors (480p)
-http://107.167.7.162:8081/playlist/amhor/playlist.m3u8
 #EXTINF:-1 tvg-id="AMGTV.us@SD",AMG TV (1080p)
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 #EXTINF:-1 tvg-id="AMGATV.us@SD",Amga TV (720p) [Not 24/7]
@@ -327,6 +325,8 @@ https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
 http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="GlobalFashionChannel.us@SD",Global Fashion Channel (1080p)
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
+#EXTINF:-1 tvg-id="GMTV.us@SD",GMTV (1080p)
+https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341
 #EXTINF:-1 tvg-id="Go2Travel.us@SD",Go2Travel (1080p)
 https://go2thls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="",GOD TV (720p)
@@ -381,6 +381,12 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo
 https://hls.irannrtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ItIsWrittenTV.us@SD",It Is Written TV (1080p)
 https://itiswrittentv.akamaized.net/xR8gyATuHMVx69u9G79DXnpNRL/playlist.m3u8
+#EXTINF:-1 tvg-id="JBS.us@SD",JBS (404p) [Not 24/7]
+http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/master.m3u8
+#EXTINF:-1 tvg-id="JBS.us@SD",JBS (404p) [Not 24/7]
+http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="JBS.us@SD",JBS (404p) [Not 24/7]
+https://uni8rtmp.tulix.tv/shalomtv-pc/smil:shalomtv.smil/master.m3u8
 #EXTINF:-1 tvg-id="",Jewelry Television Espanol (720p)
 https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/72b5a55e4c35445f9e742871aa0aefa2/index.m3u8
 #EXTINF:-1 tvg-id="JustforLaughsGags.us@SD",Just for Laughs Gags (1080p)
@@ -451,6 +457,8 @@ https://brightstar-latino-pull-secure.akamaized.net/brightstarlatino/stream.m3u8
 https://brightstar-romanian-pull-secure.akamaized.net/brightstarromanian/stream.m3u8
 #EXTINF:-1 tvg-id="LLBNTVSouthAsia.us@SD",Lighting Lives Blessing Nations TV South Asia (LLBN) (480p)
 https://brightstar-southasia-pull-secure.akamaized.net/brightstarsouthasia/stream.m3u8
+#EXTINF:-1 tvg-id="LittleGuyanaTV.us@SD",Little Guyana TV (1080p)
+https://video1.getstreamhosting.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD",LiveNOW from FOX (720p) [Geo-blocked]
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD",LiveNOW from FOX (720p)
@@ -561,8 +569,6 @@ http://79.127.207.193/Nickelodeon/playlist.m3u8
 https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/tracks-v1/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="NRBTV.us@SD",NRB TV (480p)
 https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="NTDTV.us@East",NTD TV
-https://live.ntdtv.com/live900/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTVAsiaPacific.us@SD",NTD TV Asia-Pacific
 https://live.ntdtv.com/aplive200/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTVCanada.us@East",NTD TV Canada
@@ -583,6 +589,8 @@ https://live.ntdtv.com/uwlive990/playlist.m3u8
 https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8
 #EXTINF:-1 tvg-id="OANEncore.us@SD",OAN Encore (720p) [Geo-blocked]
 https://a-cdn.herringnetwork.com/affiliate/oane/playlist.m3u8
+#EXTINF:-1 tvg-id="OCNTV.us@SD",OCN TV
+https://5d12bc59c4748.streamlock.net/redirect/ocnbroadcasting.com/ocnbroadcasting2?type=m3u8
 #EXTINF:-1 tvg-id="PayamJavanTV.us@SD",Payam Javan TV (720p) [Not 24/7]
 https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PayameAfghanTV.us@SD",Payam-e-Afghan TV (480p) [Not 24/7]
@@ -697,8 +705,6 @@ https://164475.gvideo.io/mpegts/164475_650646/master_mpegts.m3u8
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8
 #EXTINF:-1 tvg-id="TBNPacific.us@SD",TBN Pacific
 https://broadcast.tbnpacific.org.au:4430/stream/TBNPacificTV/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleBoston.us@SD",Tele Boston (480p)
-https://tv2.fastcast4u.com:3238/live/radiotelebostonlive.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us@SD",Tennis Channel (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="TeveVidaNetwork.us@SD",Teve Vida Network (480p) [Not 24/7]
@@ -757,8 +763,12 @@ https://rpn.bozztv.com/gusa/gusa-tvscomedy/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
 #EXTINF:-1 tvg-id="TVSFamilyChannel.us@SD",TVS Family Channel (360p)
 https://rpn.bozztv.com/gusa/gusa-TVSFamilyChannel/index.m3u8
+#EXTINF:-1 tvg-id="TVSFilmNoirNetwork.us@SD",TVS Film Noir Network (720p)
+https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8
 #EXTINF:-1 tvg-id="TVSFlashbackNetwork.us@SD",TVS Flashback Network (360p)
 https://rpn.bozztv.com/gusa/gusa-TVSFlashback/index.m3u8
+#EXTINF:-1 tvg-id="",TVS Frontier Network (360p)
+https://rpn.bozztv.com/gusa/gusa-tvsfrontier/index.m3u8
 #EXTINF:-1 tvg-id="TVSHiTops.us@SD",TVS Hi Tops (720p)
 https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8
 #EXTINF:-1 tvg-id="TVSHollywoodHistory.us@SD",TVS Hollywood History (582p)
@@ -831,8 +841,6 @@ https://wedqdt4.lls.pbs.org/wedqdt4-hls.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="WFUTDT681.us@HD",WFUT-DT1 (720p) [Geo-blocked]
 https://streaming-live-fcdn.api.prd.univisionnow.com/wfut/wfut.isml/hls/wfut.m3u8
-#EXTINF:-1 tvg-id="WFXT662.us@SD",WFXT-DT2 (1080p)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="WGALDT3.us@SD",WGAL-DT3 (1080p) [Geo-blocked]
 https://lowa8026-cmyk.github.io/iptv/WGAL-DT3/index.m3u8
 #EXTINF:-1 tvg-id="WGNDT1.us@SD",WGN-DT1 (720p)
@@ -883,8 +891,6 @@ https://amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv/playlist/amg0032
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="WTNH81.us@HD",WTNH-DT1 (720p)
 https://tkx.mp.lura.live/rest/v2/mcp/video/11135425.m3u8?anvack=pDKqMLyG9pVqMkSYRJHWu3XROjAlvR6z&eud=1iqQ+zazzEobWIhmmj6bA8STRJm4HceYQApO7QYBvy9BTps0KI7LuXGD4KK7RLtBTyO8KsbFw40vgX8hrw+xqw==
-#EXTINF:-1 tvg-id="WTTG51.us@HD",WTTG-DT1 (1080p)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="WTVJ61.us@HD",WTVJ-DT1 (1080p)
 https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8
 #EXTINF:-1 tvg-id="WTVT131.us@HD",WTVT-DT1 (1080p)
@@ -913,3 +919,5 @@ https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41
 https://dokagents.site/live/axnw/mono.m3u8
 #EXTINF:-1 tvg-id="AXNBlack.us@Romania",AXN Black Romania
 https://dokagents.site/live/axnb/mono.m3u8
+#EXTINF:-1 tvg-id="NTDTV.us@East",NTD TV (1080p)
+https://ntd02.akamaized.net/HD-NY/index.m3u8
