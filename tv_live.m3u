@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="💡 系统信息", 🕒最新更新时间: 2026-07-08 23:09:01
+#EXTINF:-1 group-title="💡 系统信息", 🕒最新更新时间: 2026-07-09 23:12:46
 http://127.0.0.1/dummy.m3u8
-#EXTINF:-1 group-title="💡 系统信息", 📡当前有效频道: 779个
+#EXTINF:-1 group-title="💡 系统信息", 📡当前有效频道: 793个
 http://127.0.0.1/dummy.m3u8
 #EXTINF:-1 tvg-id="6WiseTv.us@SD",6 Wise Tv (720p)
 https://live.enhdtv.com:8081/8150/index.m3u8
@@ -55,6 +55,8 @@ https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 http://media.smc-host.com:1935/alhorreya.tv/mp4:alhorreya3/playlist.m3u8
 #EXTINF:-1 tvg-id="AlHorreyaTV.us@SD",Al Horreya TV (720p)
 http://media.smc-host.com:1935/alhorreya.tv/alhorreya.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlFadyTV.us@SD",Al-Fady TV (1080p) [Not 24/7]
+https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlMahdiTV.us@SD",Al-MahdiTV (1080p)
 https://iptv.almahditv.com/almahditv/playlist.m3u8
 #EXTINF:-1 tvg-id="Alhurra.us@SD",Alhurra (720p)
@@ -85,8 +87,8 @@ https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmaus.smil/playlist.m3u8
 https://597f64b67707a.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlmagdTVNorthAmerica.us@SD",Almagd TV North America (1080p)
 https://5aafcc5de91f1.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AmericanHorrors.us@SD",American Horrors (480p)
-http://107.167.7.162:8081/playlist/amhor/playlist.m3u8
+#EXTINF:-1 tvg-id="AmazingFactsTV.us@SD",Amazing Facts TV (1080p)
+https://hlspackager.akamaized.net/live/DB/AMAZING_FACTS/HLS/AMAZING_FACTS.m3u8
 #EXTINF:-1 tvg-id="AMGTV.us@SD",AMG TV (1080p)
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 #EXTINF:-1 tvg-id="AMGATV.us@SD",Amga TV (720p) [Not 24/7]
@@ -271,8 +273,6 @@ http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 https://wescottcc.piksel.tech/hls/live/2041478/adp/playlist.m3u8
 #EXTINF:-1 tvg-id="DrGeneScott.us@SD",Dr. Gene Scott (480p)
 https://wescottcc.piksel.tech/Manifest/UTB-NetworkStream.m3u8
-#EXTINF:-1 tvg-id="DraftKingsNetwork.us@SD",DraftKings Network (1080p)
-https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
 #EXTINF:-1 tvg-id="DuckHuntingTV.us@SD",Duck Hunting TV (1080p)
 https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
 #EXTINF:-1 tvg-id="ElbesharaGTV.us@SD",Elbeshara GTV (1080p) [Not 24/7]
@@ -309,16 +309,12 @@ http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="GlobalWorldTV.us@SD",GlobalWorldTV (720p)
 https://media.streambrothers.com:1936/8052/8052/playlist.m3u8
-#EXTINF:-1 tvg-id="",GOD TV (720p)
-https://ott.god.tv/live/us/master.m3u8
 #EXTINF:-1 tvg-id="",Golden Boy
 https://goldenboy.duckhunting.playout.vju.tv/DuckhuntingTV_GoldenBoy/main.m3u8
 #EXTINF:-1 tvg-id="Golden.mx@Panregional",Golden TV (240p) [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-goldentv/index.m3u8
 #EXTINF:-1 tvg-id="GoodLife45.us@SD",GoodLife 45 (720p) [Not 24/7]
 https://2-fss-2.streamhoster.com/pl_118/201450-1248872-1/playlist.m3u8
-#EXTINF:-1 tvg-id="GospelTruthTV.us@SD",Gospel Truth TV (1080p)
-https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8
 #EXTINF:-1 tvg-id="GritXtra.us@SD",Grit Xtra (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="HighVisionTV.us@SD",High Vision (1080p) [Not 24/7]
@@ -359,6 +355,12 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo
 https://hls.irannrtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ItIsWrittenTV.us@SD",It Is Written TV (1080p)
 https://itiswrittentv.akamaized.net/xR8gyATuHMVx69u9G79DXnpNRL/playlist.m3u8
+#EXTINF:-1 tvg-id="JBS.us@SD",JBS (404p) [Not 24/7]
+http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/master.m3u8
+#EXTINF:-1 tvg-id="JBS.us@SD",JBS (404p) [Not 24/7]
+http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="JBS.us@SD",JBS (404p) [Not 24/7]
+https://uni8rtmp.tulix.tv/shalomtv-pc/smil:shalomtv.smil/master.m3u8
 #EXTINF:-1 tvg-id="",Jewelry Television Espanol (720p)
 https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/72b5a55e4c35445f9e742871aa0aefa2/index.m3u8
 #EXTINF:-1 tvg-id="JustforLaughsGags.us@SD",Just for Laughs Gags (1080p)
@@ -397,8 +399,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangelesktt
 https://streaming-live-fcdn.api.prd.univisionnow.com/kuvn/kuvn.isml/hls/kuvn.m3u8
 #EXTINF:-1 tvg-id="KVIE62.us@HD",KVIE-DT2 (1080p)
 https://kviedt2.lls.pbs.org/kviedt2-hls.m3u8
-#EXTINF:-1 tvg-id="LaQueBuenaAtlanta.us@SD",La Que Buena Atlanta
-https://streamyes.alsolnet.com/quebuenaatlanta/live/index.m3u8
 #EXTINF:-1 tvg-id="LaoThaiTV.us@SD",Lao-Thai TV (720p)
 https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="LGTV.us@SD",LGTV (1080p)
@@ -423,6 +423,8 @@ https://brightstar-latino-pull-secure.akamaized.net/brightstarlatino/stream.m3u8
 https://brightstar-romanian-pull-secure.akamaized.net/brightstarromanian/stream.m3u8
 #EXTINF:-1 tvg-id="LLBNTVSouthAsia.us@SD",Lighting Lives Blessing Nations TV South Asia (LLBN) (480p)
 https://brightstar-southasia-pull-secure.akamaized.net/brightstarsouthasia/stream.m3u8
+#EXTINF:-1 tvg-id="LittleGuyanaTV.us@SD",Little Guyana TV (1080p)
+https://video1.getstreamhosting.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD",LiveNOW from FOX (720p) [Geo-blocked]
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD",LiveNOW from FOX (720p)
@@ -491,14 +493,12 @@ https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
 https://newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="News12PlusConnecticut.us@HD",News12+ Connecticut (1080p) [Geo-blocked]
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8
-#EXTINF:-1 tvg-id="News12PlusHudsonValley.us@HD",News12+ Hudson Valley (1080p) [Geo-blocked]
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8
-#EXTINF:-1 tvg-id="News12PlusLongIsland.us@HD",News12+ Long Island (1080p) [Geo-blocked]
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="News12PlusNewJersey.us@HD",News12+ New Jersey (1080p) [Geo-blocked]
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="News12PlusNewYork.us@HD",News12+ New York (1080p) [Geo-blocked]
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NYC_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="News12Bronx.us@SD",News12 Bronx [Geo-blocked]
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8?omap=https
 #EXTINF:-1 tvg-id="News12Brooklyn.us@SD",News12 Brooklyn [Geo-blocked]
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https
 #EXTINF:-1 tvg-id="News12Conneticut.us@SD",News12 Conneticut [Geo-blocked]
@@ -565,10 +565,14 @@ https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
 https://livestream.telvue.com/phillycam1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="PHLgovTV.us@SD",PHLgovTV (720p)
 https://livestream.telvue.com/ctyphiladelphia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="PixLTV.us@SD",PixL TV
+https://frndlymsl.akamaized.net/hls/live/2006426/pixlmsl/pixlmsl/playlist.m3u8?hdnts=st=1606053234~exp=3216054041~acl=*~hmac=208d261d9f98d76a5ac30aa2ce51751f88ee50cfc24812b7cbea8b0397489a07
 #EXTINF:-1 tvg-id="Placid.us@EastHD",Placid (1080p) [Not 24/7]
 https://toy.vcdn.fyi/placid/index.m3u8
 #EXTINF:-1 tvg-id="PositivTV.us@SD",Positiv TV (1080p)
 https://livecdn.use1-0004.jwplive.com/live/sites/fGLyccP5/media/FoWynVnP/live.isml/.m3u8
+#EXTINF:-1 tvg-id="PositivTV.us@SD",Positiv TV (636p)
+http://trn03.bozztv.com/gin-positiv/index.m3u8
 #EXTINF:-1 tvg-id="PottaDivineTVUSA.us@SD",Potta-Divine TV USA (480p)
 https://playout7multirtmp.tulix.tv/live21/Stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="QVC.us@SD",QVC (720p)
@@ -579,6 +583,8 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
 #EXTINF:-1 tvg-id="",QVC West (720p)
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uswest/master.m3u8
+#EXTINF:-1 tvg-id="RacerNetwork.us@SD",Racer Network (1080p)
+https://amg00378-mavtv-amg00378c3-sportstribal-emea-1325.playouts.now.amagi.tv/mavtv-smn-xm/playlist.m3u8
 #EXTINF:-1 tvg-id="RacerSelect.us@SD",Racer Select (1080p)
 https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RJTV.us@SD",Radio Javan TV (1080p)
@@ -645,8 +651,6 @@ https://rpn.bozztv.com/ssstv/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
 https://2-fss-1.streamhoster.com/pl_122/206338-3120682-1/playlist.m3u8
 #EXTINF:-1 tvg-id="TBN.us@East",TBN (1080p)
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/fCGf6ROk/live.isml/.m3u8
-#EXTINF:-1 tvg-id="TBNArmenia.us@SD",TBN Armenia
-https://164475.gvideo.io/mpegts/164475_650646/master_mpegts.m3u8
 #EXTINF:-1 tvg-id="TBNInspire.us@SD",TBN Inspire (1080p)
 https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8
 #EXTINF:-1 tvg-id="TBNPacific.us@SD",TBN Pacific
@@ -709,6 +713,8 @@ https://rpn.bozztv.com/gusa/gusa-tvscomedy/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
 #EXTINF:-1 tvg-id="TVSFamilyChannel.us@SD",TVS Family Channel (360p)
 https://rpn.bozztv.com/gusa/gusa-TVSFamilyChannel/index.m3u8
+#EXTINF:-1 tvg-id="TVSFilmNoirNetwork.us@SD",TVS Film Noir Network (720p)
+https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8
 #EXTINF:-1 tvg-id="TVSFlashbackNetwork.us@SD",TVS Flashback Network (360p)
 https://rpn.bozztv.com/gusa/gusa-TVSFlashback/index.m3u8
 #EXTINF:-1 tvg-id="",TVS Frontier Network (360p)
@@ -735,8 +741,6 @@ https://rpn.bozztv.com/gusa/gusa-tvsgameshow/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsselect/index.m3u8
 #EXTINF:-1 tvg-id="TVSSports.us@SD",TVS Sports (720p) [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
-#EXTINF:-1 tvg-id="TVSSportsBureau.us@SD",TVS Sports Bureau (720p)
-https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
 #EXTINF:-1 tvg-id="TVSTalkNetwork.us@SD",TVS Talk Network (360p)
 https://rpn.bozztv.com/gusa/gusa-TVStalk/index.m3u8
 #EXTINF:-1 tvg-id="TVSTallyHo.us@SD",TVS Tally Ho (360p)
@@ -779,6 +783,14 @@ https://vsin-sgrewind.streamguys1.com/scte/live-2k/playlist.m3u8
 https://2-fss-2.streamhoster.com/pl_118/amlst:204972-1949480/playlist.m3u8
 #EXTINF:-1 tvg-id="W14DKD142.us@SD",W14DK-D 14.2 NEWSNET
 https://2-fss-2.streamhoster.com/pl_118/204972-1954106-1/playlist.m3u8
+#EXTINF:-1 tvg-id="WATCDT571.us@HD",WATC TV57 (1080p)
+https://tgn2.bozztv.com/watc57/watc57-1/watc57-1/index.m3u8
+#EXTINF:-1 tvg-id="WATCDT572.us@HD",WATC The POINT Network (1080p)
+https://tgn.bozztv.com/watc57/watc57-2/watc57-2/index.m3u8
+#EXTINF:-1 tvg-id="WATCDT573.us@SD",WATC The Loop (1080p)
+https://tgn.bozztv.com/watc57/watc57-theloop/watc57-theloop/index.m3u8
+#EXTINF:-1 tvg-id="",WATC Harmony Gospel Music TV (1080p)
+https://tgn.bozztv.com/watc57/watc57-harmony/watc57-harmony/index.m3u8
 #EXTINF:-1 tvg-id="WEDQ34.us@HD",WEDQ-DT4 (1080p)
 https://wedqdt4.lls.pbs.org/wedqdt4-hls.m3u8
 #EXTINF:-1 tvg-id="WFLD501.us@HD",WFLD-DT1 (1080p)
@@ -841,8 +853,6 @@ https://tkx.mp.lura.live/rest/v2/mcp/video/11135425.m3u8?anvack=pDKqMLyG9pVqMkSY
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="WTVJ61.us@HD",WTVJ-DT1 (1080p)
 https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8
-#EXTINF:-1 tvg-id="WTVT131.us@HD",WTVT-DT1 (1080p)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="WTXFTV291.us@HD",WTXF-DT1 (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="WVCULP.us@SD",WVCU-LP Concord University Radio The Cure 97.7 (1080p)
@@ -861,8 +871,6 @@ https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg0
 https://fl1002.bozztv.com/gf-zarintv/index.m3u8
 #EXTINF:-1 tvg-id="ZoomNews.us@SD",Zoom TV Kurdish (720p)
 https://live.zoomnews.info/live/Zoom_playlist.m3u8
-#EXTINF:-1 tvg-id="FreeSpeechTV.us@SD",Free Speech TV (720p)
-https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8
 #EXTINF:-1 tvg-id="NTDTV.us@East",NTD TV (1080p)
 https://ntd02.akamaized.net/HD-NY/index.m3u8
 #EXTINF:-1 tvg-id="TimelessTV.us@SD",Timeless TV
@@ -893,8 +901,6 @@ http://198.58.104.90:8989/mtv/index.m3u8
 http://198.58.104.90:8989/mtv2/index.m3u8
 #EXTINF:-1 tvg-id="StarChannelLatinAmerica.us@Panregional",Star Channel Latin America (1080i)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/StarChannel.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TelemundoInternacional.us@South",Telemundo Internacional (1080p)
-http://138.121.15.230:9002/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-id="Fuse.us@East",Fuse (1080p)
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
 #EXTINF:-1 tvg-id="Revolt.us@SD",Revolt (720p)
@@ -939,8 +945,6 @@ https://streamer1.nexgen.bz/WE_TV/index.m3u8
 https://mumt05.tangotv.in/87NeALx2THEQ/index.m3u8
 #EXTINF:-1 tvg-id="AccuWeatherNOW.us@SD",AccuWeather NOW (720p)
 http://23.239.31.26:8989/accuweather/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD",Fox News Channel (720p)
-http://138.121.15.230:9002/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="BBCAmerica.us@East",BBC America (720p)
 http://23.239.31.26:8989/bbcamerica/index.m3u8
 #EXTINF:-1 tvg-id="Freeform.us@East",Freeform (720p)
@@ -977,28 +981,12 @@ http://181.78.121.15:8000/play/a00a/index.m3u8
 http://88.212.15.19/live/test_black/playlist.m3u8
 #EXTINF:-1 tvg-id="Heartland.us@Eastern",Heartland (720p)
 https://2-fss-2.streamhoster.com/pl_120/201950-2724904-1/playlist.m3u8
-#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@Panregional",History Latin America (1080p)
-http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="History2LatinAmerica.us@Panregional",History 2 Latin America (1080p)
-http://138.121.15.230:9002/HISTORY-2/index.m3u8
-#EXTINF:-1 tvg-id="AELatinAmerica.us@Panregional",A&E Latin America (1080p)
-http://138.121.15.230:9002/A&E/index.m3u8
-#EXTINF:-1 tvg-id="LifetimeLatinAmerica.us@Panregional",Lifetime Latin America (1080p)
-http://138.121.15.230:9002/LIFETIME/index.m3u8
-#EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Panregional",Universal TV Latin America (1080p)
-http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Panregional",Studio Universal Latin America (1080p)
-http://138.121.15.230:9002/STUDIO-UNIVERSAL/index.m3u8
-#EXTINF:-1 tvg-id="USANetworkLatinAmerica.us@Panregional",USA Network Latin America (1080p)
-http://138.121.15.230:9002/USA/index.m3u8
 #EXTINF:-1 tvg-id="DreamWorksChannelLatinAmerica.us@SD",DreamWorks Channel Latin America (1080p)
 http://138.121.15.230:9002/DREAMWORKS/index.m3u8
 #EXTINF:-1 tvg-id="CanalInfantil.us@SD",Canal Infantil (1080p)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/canalinfantil/playlist.m3u8
 #EXTINF:-1 tvg-id="SPEEDVISION.us@SD",SPEEDVISION (1080p)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/fierrofondo.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="JuntosTV.pe@SD",Juntos TV (720p)
-https://live-evg8.tv360.bitel.com.pe/bitel/juntostvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="IndiMusicTV.us@SD",IndiMusic TV (720p)
 https://live-evg10.tv360.bitel.com.pe/bitel/musictv/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US",Bloomberg TV (1080p)
@@ -1113,13 +1101,13 @@ https://2-fss-1.streamhoster.com/pl_122/206858-4405346-1/playlist.m3u8
 https://2-fss-2.streamhoster.com/pl_120/206858-4412962-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KPVMLD253.us@HD",KPVM Real America's Voice
 https://2-fss-2.streamhoster.com/pl_118/206858-4404454-1/playlist.m3u8
-#EXTINF:-1 tvg-id="KPVMLD254.us@HD",KPVM OAN Plus
+#EXTINF:-1 tvg-id="KPVMLD254.us@SD",KPVM OAN Plus
 https://2-fss-2.streamhoster.com/pl_118/206858-4404458-1/playlist.m3u8
-#EXTINF:-1 tvg-id="KPVMLD255.us@SD",KPVM Newsmax 2 [Not 24/7]
+#EXTINF:-1 tvg-id="KPVMLD255.us@SD",KPVM Newsmax 2
 https://2-fss-2.streamhoster.com/pl_120/206858-4404556-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KPVMLD256.us@SD",KPVM Story Television
 https://2-fss-1.streamhoster.com/pl_122/206858-4412976-1/playlist.m3u8
-#EXTINF:-1 tvg-id="KPVMLD257.us@SD",KPVM AWE Plus [Not 24/7]
+#EXTINF:-1 tvg-id="KPVMLD257.us@SD",KPVM AWE Plus
 https://2-fss-2.streamhoster.com/pl_120/206858-4404552-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KPVMLD258.us@SD",KPVM Ace Country Radio
 https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8
@@ -1181,6 +1169,8 @@ http://206.212.244.63/32/index.m3u8
 http://206.212.244.63/33/index.m3u8
 #EXTINF:-1 tvg-id="Charge.us@SD",Charge! (720p)
 http://206.212.244.63/34/index.m3u8
+#EXTINF:-1 tvg-id="CheddarNews.us@SD",Cheddar News (720p)
+http://206.212.244.63/35/index.m3u8
 #EXTINF:-1 tvg-id="Circle.us@SD",Circle (720p)
 http://206.212.244.63/37/index.m3u8
 #EXTINF:-1 tvg-id="CleoTV.us@SD",Cleo TV (720p)
@@ -1359,8 +1349,6 @@ http://206.212.244.63/147/index.m3u8
 http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us@West",Disney Junior West (720p)
 http://206.212.244.63/655/index.m3u8
-#EXTINF:-1 tvg-id="TeenNick.us@East",TeenNick (720p)
-http://206.212.244.63/670/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us@South",Telemundo Internacional (1080p)
 http://179.60.51.134:8888/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-id="NBATV.us@SD",NBA TV (720p)
@@ -1407,8 +1395,14 @@ http://40.160.24.55/TV_ONE/index.m3u8
 http://41.223.30.230/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us@SD",One America News Network (1080p)
 http://40.160.24.55/ONE_AMERICA_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.us@East",National Geographic Wild (720p)
-http://84.17.50.102/natgeowild/index.m3u8
+#EXTINF:-1 tvg-id="NickJr.us@East",Nick Jr. (720p)
+http://212.5.144.156:8080/nickjr/index.m3u8
+#EXTINF:-1 tvg-id="History.us@East",History (720p)
+http://212.5.144.156:8080/history/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.us@East",National Geographic (720p)
+http://212.5.144.156:8080/natgeo/index.m3u8
+#EXTINF:-1 tvg-id="TBN.us@East",TBN (720p)
+http://212.5.144.156:8080/tbn/index.m3u8
 #EXTINF:-1 tvg-id="OutdoorChannel.us@SD",Outdoor Channel (576p)
 http://45.189.62.33:8002/play/a0kt/index.m3u8
 #EXTINF:-1 tvg-id="NFLNetwork.us@SD",NFL Network (576p)
@@ -1449,6 +1443,8 @@ http://stream.cammonitorplus.net/1783/index.m3u8
 http://stream.cammonitorplus.net/1797/index.m3u8
 #EXTINF:-1 tvg-id="Fox.us@West",Fox West (720p)
 http://stream.cammonitorplus.net/1799/index.m3u8
+#EXTINF:-1 tvg-id="UniMas.us@Mountain",UniMas Mountain (1080p)
+http://168.228.44.241:9997/play/a09e/index.m3u8
 #EXTINF:-1 tvg-id="NBC.us@West",NBC West (720p)
 http://stream.cammonitorplus.net/1800/index.m3u8
 #EXTINF:-1 tvg-id="FETV.us@SD",FETV (720p)
@@ -1537,18 +1533,14 @@ http://138.186.23.7:8082/MTV/index.m3u8
 http://138.186.23.7:8082/COMEDYCENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="ParamountNetworkLatinAmerica.us@Panregional",Paramount Network Latin America (720p)
 http://138.186.23.7:8082/PARAMOUNT/index.m3u8
+#EXTINF:-1 tvg-id="SonyMoviesLatinAmerica.us@SD",Sony Movies Latin America (720p)
+http://177.52.24.163/SONY-MOVIES-HD/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us@CentralAmerica",Telemundo Internacional Central America (1080p)
 http://190.60.46.156:8089/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Brazil",FX Latin America Brazil (720p)
 http://167.250.126.140:7777/FX-HD/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US",Bloomberg TV (720p)
 http://167.250.126.140:7777/BLOOMBERG-HD/index.m3u8
-#EXTINF:-1 tvg-id="DePeliculaUS.us@SD",De Pelicula US (720p)
-http://138.121.15.230:9002/DEPELICULA/index.m3u8
-#EXTINF:-1 tvg-id="AXNLatinAmerica.us@CentralAmerica",AXN Latin America (1080p)
-http://138.121.15.230:9002/AXN/index.m3u8
-#EXTINF:-1 tvg-id="Cinecanal.us@Pacific",Cinecanal Pacific (1080p)
-http://138.121.15.230:9002/CINECANAL/index.m3u8
 #EXTINF:-1 tvg-id="Buzzr.us@SD",Buzzr (1080p)
 http://23.237.104.106:8080/USA_BUZZR/index.m3u8
 #EXTINF:-1 tvg-id="GolfChannelLatinAmerica.us@SD",Golf Channel Latin America (720p)
@@ -1561,3 +1553,39 @@ http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 tvg-id="NBCUniverso.us@East",NBC Universo (720p)
 http://187.102.210.46/universo/index.m3u8
+#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Brazil",Studio Universal Latin America Brazil (720p)
+http://167.250.126.140:7777/STUDIOUNIVERSAL-HD/index.m3u8
+#EXTINF:-1 tvg-id="History2LatinAmerica.us@Brazil",History 2 Latin America Brazil (720p)
+http://167.250.126.140:7777/H2-HD/index.m3u8
+#EXTINF:-1 tvg-id="ELatinAmerica.us@Brazil",E! Latin America Brazil (720p)
+http://167.250.126.140:7777/E!-HD/index.m3u8
+#EXTINF:-1 tvg-id="PasionesLatinAmerica.us@SD",Pasiones Latin America (1080p)
+http://45.224.97.181:9999/Pasiones/index.m3u8
+#EXTINF:-1 tvg-id="DHE.us@SD",DHE (1080p)
+http://177.245.131.133:8080/DHE/index.m3u8
+#EXTINF:-1 tvg-id="HolaTVLatinAmerica.us@SD",Hola! TV Latin America (1080p)
+http://177.245.131.133:8080/HOLA/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional",National Geographic Latin America (720p)
+http://177.245.131.133:8080/NATGEO/index.m3u8
+#EXTINF:-1 tvg-id="AMCLatinAmerica.us@SD",AMC Latin America (1080p)
+http://45.171.108.253:8888/AMC/index.m3u8
+#EXTINF:-1 tvg-id="AXNLatinAmerica.us@Andes",AXN Latin America Andes (1080p)
+http://138.186.23.7:8082/AXN/index.m3u8
+#EXTINF:-1 tvg-id="StarChannelLatinAmerica.us@Panregional",Star Channel Latin America (1080p)
+http://138.186.23.7:8082/STARCHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="TNTNovelas.us@SD",TNT Novelas (1080p)
+http://138.186.23.7:8082/TNTNOVELAS/index.m3u8
+#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@Panregional",History Latin America (1080p)
+http://138.186.23.7:8082/HISTORY/index.m3u8
+#EXTINF:-1 tvg-id="History2LatinAmerica.us@Panregional",History 2 Latin America (1080p)
+http://138.186.23.7:8082/HISTORY2/index.m3u8
+#EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Panregional",Universal TV Latin America (1080p)
+http://138.186.23.7:8082/STUDIOUNIVERSAL/index.m3u8
+#EXTINF:-1 tvg-id="USANetworkLatinAmerica.us@SD",USA Network Latin America (1080p)
+http://138.186.23.7:8082/SYFY/index.m3u8
+#EXTINF:-1 tvg-id="SonyChannelAndes.us@SD",Sony Channel Andes (1080p)
+http://138.186.23.7:8082/SONYCHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional",Nickelodeon Latin America (1080p)
+http://138.186.23.7:8082/NICK/index.m3u8
+#EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional",Nick Jr. Latin America (1080p)
+http://138.186.23.7:8082/NICKJR/index.m3u8
